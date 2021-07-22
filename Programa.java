@@ -15,8 +15,6 @@ public class Programa {
 			    nome = ler.next();
 			    nomes.add(nome);
 			}
-			
-			while(!"parar".equals(nome));
 			    System.out.println("Lista fechada.");
 			    
 			for(int i=0;i<nomes.size();i++) {
